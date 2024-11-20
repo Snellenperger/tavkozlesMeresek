@@ -2,7 +2,11 @@
 
 **Mérés helye**: Miskolci SZC Kandó Kálmán Informatikai Technikum  
 **Mérés időpontja**: 2024.10.07.  
-**Mérő műszerek**: HMO1002 Oscilloscope - 1764K02-102609-WG  
+**A méréshez használt eszközök**:<br>
+HMO1002 Oscilloscope - 1764K02-102609-WG <br>
+Jelgenerátor - A682393<br>
+Breadboard, ellenállások és laptop
+<br>
 **Felelős személy**: Sándor Péter  
 **Cél**: A pi csillapító áramkör elemzése.
 
@@ -10,8 +14,7 @@
 
 ### 1. **Bevezetés**
 
-A projekt célja egy PI csillapító áramkör megépítése, amelynek fókuszában a csillapítás mérése áll.
-Az áramkört breadboardon építettem meg, a könnyedség kedvéért.
+Egy olyan négypólusú Π csillapító áramkör építése aminek a bemenetére egy 600 Ω belső ellenállású jelgenerátort kötünk, és a cél, az hogy 6 dB csillapítást érjünk el a kimeneten amit egy oszcilloszkóppal fogunk mérni.
 
 ## Elmélet:
 
