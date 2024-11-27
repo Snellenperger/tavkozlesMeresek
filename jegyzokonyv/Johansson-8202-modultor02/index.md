@@ -50,13 +50,13 @@ A modulátorokon a feladat kezdetén mindenképpen csináljatok egy factory rese
 **Képek a mérésről**  
 TV1 jele:  
 ![image](https://github.com/user-attachments/assets/bcca0a51-9f16-4738-a9c7-fa5851dc1297)  
-![image](https://github.com/user-attachments/assets/d5af8eec-9495-4f17-a03b-5d7f99ba76fe)  
-TV2 10Mbps-en: 
-![image](https://github.com/user-attachments/assets/4ff9ad0f-41ee-469f-992e-fda4e0377a86)
-![image](https://github.com/user-attachments/assets/a4155048-b485-44a3-8399-da595b9d2781)  
+![image](https://github.com/user-attachments/assets/d5af8eec-9495-4f17-a03b-5d7f99ba76fe)   
+TV2 10Mbps-en:     
+![image](https://github.com/user-attachments/assets/4ff9ad0f-41ee-469f-992e-fda4e0377a86)    
+![image](https://github.com/user-attachments/assets/a4155048-b485-44a3-8399-da595b9d2781)      
 TV2 21,5Mbps-en:  
-![image](https://github.com/user-attachments/assets/713588b4-c593-43b8-931a-6f4cc7ebe845)  
-![image](https://github.com/user-attachments/assets/352e420f-2312-45db-a657-82ee9c5f6940)  
+![image](https://github.com/user-attachments/assets/713588b4-c593-43b8-931a-6f4cc7ebe845)    
+![image](https://github.com/user-attachments/assets/352e420f-2312-45db-a657-82ee9c5f6940)    
 
 
 
