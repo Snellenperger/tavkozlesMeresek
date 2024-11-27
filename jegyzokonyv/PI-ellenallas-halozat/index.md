@@ -5,79 +5,41 @@
 **A méréshez használt eszközök**:<br>
 HMO1002 Oscilloscope - 1764K02-102609-WG <br>
 Jelgenerátor - A682393<br>
-Breadboard, ellenállások és laptop
-<br>
 **Felelős személy**: Sándor Péter  
 **Cél**: A pi csillapító áramkör elemzése.
 
 ---
 
-### 1. **Bevezetés**
+### 1. **A mérés célja**
 
 Egy olyan négypólusú Π csillapító áramkör építése aminek a bemenetére egy 600 Ω belső ellenállású jelgenerátort kötünk, és a cél, az hogy 6 dB csillapítást érjünk el a kimeneten amit egy oszcilloszkóppal fogunk mérni.
 
-## Elmélet:
+### 2. **A mérés menete**
 
-Az áramkör arról kapja a nevét, hogy az ellenállásokat a görög "&#928;" formájában kötjük össze.
-Az érétkeket a következő képletekkel számoljuk ki:
+Egy Π csillapító áramkör kalkulátort kerestem, ahova az előre meghatározott értékeket megadtam: kért csillapítás 6dB, impedancia 600 Ω. Így a kalkulátor megadta, a legoptimálisabb ellenállás értékeket.
 
-![R1 képlete](https://raw.githubusercontent.com/szabot2/pi-csillapito/cffee4ced185268076fb4bf54fdfafc23a0b0f74/kepek/svgviewer-output.svg)
+![image](https://github.com/user-attachments/assets/c2e08f2c-e3f4-4301-910e-3c919be68bc7)
 
-![R2 képlete](https://raw.githubusercontent.com/szabot2/pi-csillapito/cffee4ced185268076fb4bf54fdfafc23a0b0f74/kepek/svgviewer-output(1).svg)
+Ezután egy blokk vázlatot készítettem a falstadban, amiben található egy 600 Ω értékű terhelés, kettő feszültségmérő az ellenőrzés miatt, egy olyan DC generátor aminek 600 Ω a belső ellenállása és a Π csillapító ami 3 ellenállásból áll. Az R1 és az R3 megegyezik. Az R2=448.2 Ω az R1=R3=1805 Ω-al. Itt egy ellenőrzést is végeztem, hogy a 6dB csillapítás biztosan elérhető lesz ezekkel az értékekkel.
 
+![image](https://github.com/user-attachments/assets/78c0a220-05a1-4784-89fe-eeb7e051c8b3)
 
-6 dB-es csillapításra kiszámolt ellenállás értékek:
+Pontos ellenállás értékeket nem találtunk így ezekkel az értékekkel számoltunk ellenben a blokk vázlatton feltüntett adatokkal szemben: R1=R3=1690 Ω, R2=680 Ω, és a terhelő ellenállás értéke is 680 Ω lett. Így a számítások is ezek szerint alakultak.
 
+![image](https://github.com/user-attachments/assets/2931091f-d6bf-48d6-842d-20ac4ce0a896)
 
-<img src="https://raw.githubusercontent.com/szabot2/pi-csillapito/refs/heads/main/kepek/ql_41d4e91c270a0827beb0bb25f1c6a62a_l3.png">
-<br>
+Ezt sikeresen összekötöttük egy breadbordon, amire a jelgenerátort sikeresen rákötöttük és egy 1kHz-es, 5V jelet generáltunk, és az osszcilloszkópon sikeresen mértük a 2Vpp-t ami a névleges ellenállások mellett, még elfogadható tartományban van.
 
-A kapcsolási rajz ábrázolja a jelgenerátort a belső ellenállásával, valamint a Pi csillapítót a kiszámolt ellenállás értékekkel:
-<a href="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWc0wCZIA4AsBmBDUsM4A2AThxAUiqpoQFMBaMMAKADcQySRdVuvdBijhw8WjSnQEbAE6CQwpZhUiaJOGwDuavcpyQsUHYv57zkU8vMGcvK7oNGlCXoeOPX7l6jdKAdgEvOyF-HHsTJ3DIv3cSdWtwhJAPVJSQ-1Qg1N8cqwU07IE0+3VwYgLc42K+MCF8vmpTUpSsevTEhXaGgR7O0TBK037arBIa-JGOsr4JgaqsHkC+5dmNLV1l5WWwLE9rVWVlPYPdJfiRNxp1ke2c65WTAAdFU713ygPXx9rH2a+UT49z681qXguA3GxluAHslAiaGgEOMlNAlmQyBhUKgcERsDiyEgYPAIDQBCU2PCwAFEeA-KiwNBCJiyKwaftUKwiFBYHAIBABDTUmwgA" target="_blank">
-<img src="https://raw.githubusercontent.com/szabot2/pi-csillapito/refs/heads/main/kepek/circuit-20241008-0905.png" width="640" height="400">
-</a>
+![image](https://github.com/user-attachments/assets/20160b80-d60f-4b13-b57e-5f9d2a6c57be)
 
 
-### 3. **Mérési paraméterek**
+### 3. **Következtetések**
+Az eleje talán a legfontosabb lépés, hogy minden értéket sikeresen kiszámoljunk, hiszen ez fogja adni az egésznek az alapot. Utána olyan pontos ellenállás értéket nyílván nem lehet találni azonban a hozzá legközelebbi értéket választottam. Így a számítások is tolódtak azonban ez várható volt. Az oszcilloszkópon beállítani a megfelelő tartományt 1-2 kisebb baki után sikerült és ezután sikeresnek gondolom a feladatot.
 
-| Paraméter           | Érték |
-|---------------------|-------|
-| Generátor jel       | 5.00 Vp2p|
-| Kimeneti Jel        | 2.06 Vp2p |
-| Generátor Frekvencia| 1000 Hz |
-| Csillapítás         | -7.702 dB |
-| Átviteli Arány      | 7.702 dB |
-| Bemeneti impedancia | ? Ω |
-| Kimeneti impedancia | ? Ω |   
-
-<br>
-
-Látható az oszcilloszkópon a sárga 1-es csatornán a csillapított kimeneti jel, és a kék 2-es csatornán a generátor jel.
-
-<img src="https://raw.githubusercontent.com/szabot2/pi-csillapito/refs/heads/main/kepek/TA02.PNG" width="600" height="480">
-
-
-### 4. **Mérési eredmények**
-
-- **Kimeneti Jel**: A kimeneti jel mindössze 41.2%-a a generátor jelének.
-  
-- **Csillapítás/Átviteli arány**:  7.702 dB csillapítást tapasztalunk az áramkör jóvoltából.
-
-- **Kimeneti/Bemeneti impedancia**: ??????.  
-
-### 5. **Elemzés**
-A pi csillapító (pi pad) ellenállás áramkörének elemzése során megfigyelhető, hogy a tervezett áramkör hatékonyan csökkenti a jel amplitúdóját, miközben megőrzi a jel formáját. Az áramkör négy fő komponensből áll: három ellenállásból és egy terhelő ellenállásból. Kisebb eltérés tapasztalható a kiszámolt értékek és a valós értékek között.
-
-### 6. **Következtetések**
-A pi csillapító áramkör sikeresen megvalósult, és a tesztelési eredmények azt mutatják, hogy a csillapítási teljesítmény megfelel a tervezett specifikációknak. A mérések alapján a csillapító hatás a kívánt frekvenciatartományban optimális, és a jelminőség megőrzése is megfelelő. A projekt során szerzett tapasztalatok alapján a tervezési folyamat során figyelembe kell venni a komponensek toleranciáját és a környezeti hatásokat, mivel ezek befolyásolhatják az áramkör teljesítményét.
-
-### 7. **Javaslatok**
-
-- nincs
-
----
+### 4. **Javaslatok**
+1-2 kisebb hiba után nem szabad feladni, az elején elegendő időt kell hagyni hogy elméletben megértsd és azzal a háttértudással folytasd tovább a feladatot.
 
 **Aláírás**:  
-Felelős mérő személy: ..............................  
-Dátum: .............................................
+Felelős mérő személy: Snellenperger Sándor  
+Dátum: 2024.10.07.
 
