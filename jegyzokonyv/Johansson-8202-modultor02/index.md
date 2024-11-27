@@ -1,6 +1,6 @@
 # MÉRÉSI JEGYZŐKÖNYV
 
-**A mérést végző neve:** Snellenperger Sándor  
+**A mérést végző neve:** Snellenperger Sándor, Csépke Péter  
 **A mérés tárgya:** Bitsebesség vs jelminőség mérési feladat  
 **A mérés dátuma:** 2024.11.27.  
 **A mérést vezette:** Sándor Péter  
