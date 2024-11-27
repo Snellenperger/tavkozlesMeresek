@@ -44,10 +44,10 @@ A táblázat adatai alapján az látszik, hogy a TV1 ami a TV2-be csatlakozik ma
 
 ## 6. Konklúzió
 Összességében, a mérések alapján a Johansson 8202 DVB-T modulátor képes stabilan kezelni a különböző bitsebességeket, de a jelminőség és a jelszint optimalizálásához figyelembe kell venni a kábelezést. A modulátor többcsatornás működése során a bitsebesség növelése nem eredményezett drámai csökkenést a jelminőségben.
-## 9. Javaslatok
+## 7. Javaslatok
 A modulátorokon a feladat kezdetén mindenképpen csináljatok egy factory resetet hogy ne ütközzetek más beállításokba. Ha a spektrum analizátoron hasonló jelszintet szeretnétek mérni. Akkor a TV1-en erősíteni kell a kimeneten számolva a kábelen történő veszteséggel.
 
-**Képek a mérésről**  
+**8. Képek a mérésről**  
 TV1 jele:  
 ![image](https://github.com/user-attachments/assets/bcca0a51-9f16-4738-a9c7-fa5851dc1297)  
 ![image](https://github.com/user-attachments/assets/d5af8eec-9495-4f17-a03b-5d7f99ba76fe)   
