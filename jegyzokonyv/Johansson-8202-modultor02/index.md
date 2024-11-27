@@ -47,16 +47,16 @@ A táblázat adatai alapján az látszik, hogy a TV1 ami a TV2-be csatlakozik ma
 ## 9. Javaslatok
 A modulátorokon a feladat kezdetén mindenképpen csináljatok egy factory resetet hogy ne ütközzetek más beállításokba. Ha a spektrum analizátoron hasonló jelszintet szeretnétek mérni. Akkor a TV1-en erősíteni kell a kimeneten számolva a kábelen történő veszteséggel.
 
-**Képek a mérésről**
-TV1 jele:
-![image](https://github.com/user-attachments/assets/bcca0a51-9f16-4738-a9c7-fa5851dc1297)
-![image](https://github.com/user-attachments/assets/d5af8eec-9495-4f17-a03b-5d7f99ba76fe)
-TV2 10Mbps-en
+**Képek a mérésről**  
+TV1 jele:  
+![image](https://github.com/user-attachments/assets/bcca0a51-9f16-4738-a9c7-fa5851dc1297)  
+![image](https://github.com/user-attachments/assets/d5af8eec-9495-4f17-a03b-5d7f99ba76fe)  
+TV2 10Mbps-en: 
 ![image](https://github.com/user-attachments/assets/4ff9ad0f-41ee-469f-992e-fda4e0377a86)
-![image](https://github.com/user-attachments/assets/a4155048-b485-44a3-8399-da595b9d2781)
-TV2 21,5Mbps-en
-![image](https://github.com/user-attachments/assets/713588b4-c593-43b8-931a-6f4cc7ebe845)
-![image](https://github.com/user-attachments/assets/352e420f-2312-45db-a657-82ee9c5f6940)
+![image](https://github.com/user-attachments/assets/a4155048-b485-44a3-8399-da595b9d2781)  
+TV2 21,5Mbps-en:  
+![image](https://github.com/user-attachments/assets/713588b4-c593-43b8-931a-6f4cc7ebe845)  
+![image](https://github.com/user-attachments/assets/352e420f-2312-45db-a657-82ee9c5f6940)  
 
 
 
