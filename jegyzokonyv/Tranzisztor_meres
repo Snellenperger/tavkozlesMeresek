@@ -1,11 +1,11 @@
 
 # MÉRÉSI JEGYZŐKÖNYV
 
-**A mérést végző neve:** Szabó Kristóf
+**A mérést végző neve:** Snellenperger Sándr
 
 **A mérés tárgya:** Tranzisztor működésének vizsgálata
 
-**A mérés száma:** 08
+**A mérés száma:** 07
 
 **A mérés dátuma:** 2025. 01. 08.
 
@@ -19,11 +19,13 @@
 
 ## 1. Mérés célja
 
-Tranzisztor működésének vizsgálata a bemeneti feszültség változtatásával
+Tranzisztor működésének vizsgálata a bemeneti feszültség változtatásával, majd ezt összehasonlítani a szimulációs különbségekkel.
 
-### Kapcsolási rajz
+### Szimuláció, kapcsolati rajz
 
-![circuit-20250108-1302](https://github.com/user-attachments/assets/ca2c6a63-7281-4e96-9e3a-a007e45bdbfa)
+
+
+
 
 
 ---
