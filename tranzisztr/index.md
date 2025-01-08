@@ -62,6 +62,8 @@ Az adatok alapján az alábbi következtetéseket lehet levonni:
 
 - Az elejétől a végéig sajnos folyamatos a különbség, a szimuláció és a gyakorlati mérésben végig látható a különbség. Próbáltuk az összes adatot a valóságnak megfelelően beállítani de így sem jöttek ki az eredmények. 
 - Mindent megpróbáltunk de így több mint 2,5 órát vett igénybe ez a feladat.
+
+- Sajnos ennyi időm maradt a jegyzőkönyvre, legközelebb  befejezem.
   
 
 
