@@ -35,7 +35,7 @@ A GRF-1300A eszközt megfelelően összekötöttük a spektrumanalizátorral és
 Ez a spektrumanalizátoron is tökéletesen látszik, ahol a markereket megfelelően elhelyezve tökéletesen mutatja.
 ![image](https://github.com/user-attachments/assets/997d05a7-e616-43e7-b1ac-b0b6f67af0f3)  
 
-Következő lépésként megközelítőleg 63% modulációs mélységet szerettünk volna elérni így nagyjából 10dB kellett elérnünk. Ehhez a GRF-1300A tréneren megváltoztattuk a vivőfrekvenciát 900MHz-re a medulációs jelet pedig 500kHz-re. Itt 1.2 Vpp nagyságú szinuszhullámra volt szükségünk. Így sikeresen elértük a kért modulációs mélységet, amelyről lentebb láthatja a képeket. 
+Következő lépésként megközelítőleg 63% modulációs mélységet szerettünk volna elérni így nagyjából 10dB kellett elérnünk. Ehhez a GRF-1300A tréneren megváltoztattuk a vivőfrekvenciát 900MHz-re a modulációs jelet pedig 500kHz-re. Itt 1.2 Vpp nagyságú szinuszhullámra volt szükségünk. Így sikeresen elértük a kért modulációs mélységet, amelyről lentebb láthatja a képeket. 
 ![TA04](https://github.com/user-attachments/assets/42ddc906-6523-4339-91a0-08584a6003b6)  
 ![image](https://github.com/user-attachments/assets/7805b07d-23c5-43fb-8dd2-54929aa1878a)
 
