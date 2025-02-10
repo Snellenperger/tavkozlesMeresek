@@ -11,27 +11,16 @@
 **Helyszín:** V3 Labor 
 
 ## Feladat Leírása   
-A vizsgázó feladata egy földfelszíni digitális TV vételi rendszer kiépítése, a megfelelő adótorony (Miskolc, Avasi adótorony) kiválasztása, a jel mérésének és elosztásának elvégzése, valamint az IPTV rendszer konfigurálása.
+Amplitúdómoduláció (AM) előállítása GRF-1300A RF és kommunikációs trénerrel.    
+Megfelelő RF vivőfrekvencia és moduláló jel beállítása, majd az AM jel spektrumának vizsgálata,elemzése.
 
-A fogható multiplexek jelerősségének ellenőrzése, és a DVB-T jel LEMCO SCL-824CT fejállomásba történő bevezetése. A fejállomásból a digitális tartalom IPTV streamként kerül kiadásra.
-
-A Multicast IP tartomány megválasztása és az IPTV Set-top-box konfigurálása a megfelelő vételhez.
 
 ## Használt Eszközök:  
-  - Beltéri vagy kültéri antenna    
-  - Fejállomás: LEMCO SCL-824CT 8 × DVB-S/S2/T/T2/C to 4 × DVB-T/C & IP (FTA)  
-  - Set-top box: MAG IPTV
-  - Hálózati eszköz: IGMP protokollt támogató és DHCP képes router internet kapcsolattal (ASUS)
-  - Mérőműszer: METEK HDD digitális TV jelmérő
-  - Jelosztó a fejállomás bemeneteire érkező jelek kialakításához (RF16)  
-  
-Első lépésként a router (ASUS) konfigurációjával kezdtünk.  
-                                                          -wifi SSID: furti  
-                                                          -Jelszó: furti12345
-                                                          - Router IP: 192.168.50.1 
-                                                          Bejelentkezés:  
-                                                          -User: admin  
-                                                          -Jelszó: admin12345  
+  - GRF-1300A RF és kommunikációs tréner    
+  - Spektrumanalizátor (a tréner része)  
+  - Jelgenerátor a moduláló jel előállításához
+ 
+
                                                            
                                                           
               
