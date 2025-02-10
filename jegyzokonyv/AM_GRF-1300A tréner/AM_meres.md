@@ -41,7 +41,8 @@ Következő lépésként megközelítőleg 63% modulációs mélységet szerett�
 
 ## Értékelés
 
-A feladat könnyen megvalósítható volt, persze az eszközök alapszintű ismerete szükséges. Ha 1-2 hiba bele is esik véletlenül az az oszcilloszkópon vagy a spektrumanalizátoron egyértelműen látható lesz.
+A feladat könnyen megvalósítható volt, persze az eszközök alapszintű ismerete szükséges. Ha 1-2 hiba bele is esik véletlenül az az oszcilloszkópon vagy a spektrumanalizátoron egyértelműen látható lesz.    
+A mérések sikeresen alátámasztották az AM modulációs elméletet, és segítettek a gyakorlati alkalmazások megértésében.  
 
 
 
