@@ -18,7 +18,9 @@ Megfelelő RF vivőfrekvencia és moduláló jel beállítása, majd az AM jel s
 ## Használt Eszközök: 
 <details>
      <summary> GRF-1300A RF és kommunikációs tréner </summary>
-  ![GRF-1300A](https://github.com/user-attachments/assets/b09666dc-2c45-4d29-997b-4f23d93d21a4)
+     <img src=https://github.com/user-attachments/assets/9ed46ace-a694-4504-8ca6-33e1e2dc8c8d>
+
+  
 
 
 </details>
@@ -29,11 +31,13 @@ Megfelelő RF vivőfrekvencia és moduláló jel beállítása, majd az AM jel s
   - 3 db RF vezeték (2db 100mm, 1db 80mm)   
   - SMA-N átalakító     
  
-A GRF-1300A eszközt megfelelően összekötöttük a spektrumanalizátorral és az oszcilloszkóppal, majd beállítottuk a 880 MHz vivőfrekvenciát és a 100 kHz modulációs jelet. A megfelelően konfigurált oszcilloszkópról készült kép tökéletesen mutatja ,hogy a 6dB azaz a 100% modulációs mélységet elértük. Ehhez 1.15 Vpp szinuszhullámra volt szükségünk.  
-(https://github.com/user-attachments/assets/3e8a8e80-b3fa-41af-a084-5be9947ca6f2)
+A GRF-1300A eszközt megfelelően összekötöttük a spektrumanalizátorral és az oszcilloszkóppal, majd beállítottuk a 880 MHz vivőfrekvenciát és a 100 kHz modulációs jelet. A megfelelően konfigurált oszcilloszkópról készült kép tökéletesen mutatja ,hogy a 6dB azaz a 100% modulációs mélységet elértük. Ehhez 1.15 Vpp szinuszhullámra volt szükségünk.    
+![TA01](https://github.com/user-attachments/assets/a4469969-2a31-4a83-8c9e-c09d4572a821)  
 
-Ez a spektrumanalizátoron is tökéletesen látszik, ahol a markereket megfelelően elhelyezve tökéletesen mutatja.
-<img src="https://github.com/user-attachments/assets/997d05a7-e616-43e7-b1ac-b0b6f67af0f3" alt="Tréner">  
+
+Ez a spektrumanalizátoron is tökéletesen látszik, ahol a markereket megfelelően elhelyezve tökéletesen mutatja.  
+![image](https://github.com/user-attachments/assets/d2796893-96c8-410e-bc28-b571e2db4490)  
+
 Következő lépésként megközelítőleg 63% modulációs mélységet szerettünk volna elérni így nagyjából 10dB kellett elérnünk. Ehhez a GRF-1300A tréneren megváltoztattuk a vivőfrekvenciát 900MHz-re a modulációs jelet pedig 500kHz-re. Itt 1.2 Vpp nagyságú szinuszhullámra volt szükségünk. Így sikeresen elértük a kért modulációs mélységet, amelyről lentebb láthatja a képeket. 
 ![TA04](https://github.com/user-attachments/assets/42ddc906-6523-4339-91a0-08584a6003b6)  
 ![image](https://github.com/user-attachments/assets/7805b07d-23c5-43fb-8dd2-54929aa1878a)
