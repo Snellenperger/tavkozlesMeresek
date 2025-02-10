@@ -15,17 +15,20 @@ Amplitúdómoduláció (AM) előállítása GRF-1300A RF és kommunikációs tr�
 Megfelelő RF vivőfrekvencia és moduláló jel beállítása, majd az AM jel spektrumának vizsgálata,elemzése.
 
 
-## Használt Eszközök:  
-  - GRF-1300A RF és kommunikációs tréner    
+## Használt Eszközök: 
+<details>
+     <summary> GRF-1300A RF és kommunikációs tréner </summary>
+  ![GRF-1300A](https://github.com/user-attachments/assets/b09666dc-2c45-4d29-997b-4f23d93d21a4)
+
+
+</details>
+  
   - Spektrumanalizátor (a tréner része)  
   - Jelgenerátor a moduláló jel előállításához
  
 
                                                            
                                                           
-              
-
-Az antennát behangoltuk a legjobb vételhez a METEK HDD segítségével. (DNY 240°)  
 ### Itt ilyen értékeket mértünk:  
 Jelszint: 51dB  
 MER(Modulation Error Ratio): 25dB  
