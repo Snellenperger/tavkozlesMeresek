@@ -32,7 +32,7 @@ Megfelelő RF vivőfrekvencia és moduláló jel beállítása, majd az AM jel s
 A GRF-1300A eszközt megfelelően összekötöttük a spektrumanalizátorral és az oszcilloszkóppal, majd beállítottuk a 880 MHz vivőfrekvenciát és a 100 kHz modulációs jelet. A megfelelően konfigurált oszcilloszkópról készült kép tökéletesen mutatja ,hogy a 6dB azaz a 100% modulációs mélységet elértük. Ehhez 1.15 Vpp szinuszhullámra volt szükségünk.  
 ![TA01](https://github.com/user-attachments/assets/3e8a8e80-b3fa-41af-a084-5be9947ca6f2)
 
-Ez a spektrum analizátoron is tökéletesen látszik, ahol a markereket megfelelően elhelyezve tökéletesen mutatja.
+Ez a spektrumanalizátoron is tökéletesen látszik, ahol a markereket megfelelően elhelyezve tökéletesen mutatja.
 ![image](https://github.com/user-attachments/assets/997d05a7-e616-43e7-b1ac-b0b6f67af0f3)  
 
 Következő lépésként megközelítőleg 63% modulációs mélységet szerettünk volna elérni így nagyjából 10dB kellett elérnünk. Ehhez a GRF-1300A tréneren megváltoztattuk a vivőfrekvenciát 900MHz-re a medulációs jelet pedig 500kHz-re. Itt 1.2 Vpp nagyságú szinuszhullámra volt szükségünk. Így sikeresen elértük a kért modulációs mélységet, amelyről lentebb láthatja a képeket. 
