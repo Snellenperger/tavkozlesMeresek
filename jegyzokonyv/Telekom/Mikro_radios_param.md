@@ -59,22 +59,3 @@ Megmértük, hogy mennyi áramot vesznek fel az iPASOLINK eszközök, és hogy m
 
 ## Értékelés:
 A feladat során nagyon érdekes és látványos volt modellezni hogy nagyjából hogyan változtathatják az időjárási viszonyok az adatátvitelt rádiós eszközökön. Azt tapasztaltuk, hogy -90dB-nél már teljesen megszűnik a rádiós összeköttetés, az adatátvitellel együtt. Sokat segített az online és ezáltal könnyen menedzselhető felületete a iPASOLINK-nek. A mérés során sikeresen modelleztük a rádiós adatátvitel csillapításból adódó változásait és az eredmények minimális eltérést mutattak az ideális gyári értékekhez képest.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                            - 
-
