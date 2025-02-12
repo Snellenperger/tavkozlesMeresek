@@ -30,7 +30,8 @@ Első lépésként a pontosan beállított rotációs blankoló segítségével 
 
 Az összeszerelés után következett a mérés amit a Johansson modulátor segítségével hajtottam végre. Egy fix 90dBuV jelet sugároztam ki, amit a kábelem segítségével a spektrumanalizátorra kötöttem.  
 Először 177,5MHz frekvencián ahol 0,5dBuV csillapítást mértem, majd a jóval magasabb 858MHz frekvencián próbáltam ahol 0,4dBuV csillapítást tapasztaltam.  
-![excel](https://github.com/user-attachments/assets/e16c92d1-b9e2-42fe-9625-05a0b57c01d8)
+![joexcel](https://github.com/user-attachments/assets/952586c3-d749-4a4d-b1d4-17ea0ff94bc2)
+
 
 ## Összegzés
 A feladat során különösebb nehézséget nem tapasztaltam de több olyan fontos tényező van amire rengeteg figyelmet kell szentelni a folyamat során. Az egyik ilyen például, hogy a fémharisnya ne érintkezzem a réz belsővel, ezzel kizárjuk a zárlat lehetőségét. A mérések során az adatok jónak mondhatóak, bár az hogy magasabb frekvencián kisebb csillapítást mértem, az elég furcsa de ez még elnézhető hiszen nem kifejezett laborkörülmények között dolgozunk.
