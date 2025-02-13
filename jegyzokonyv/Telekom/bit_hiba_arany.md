@@ -14,16 +14,16 @@
 Több SFP tesztelése egy optikai hálózaton állítható csillapítóval és a bit hibaarányok figyelése.
 
 ### Méréshez használt eszközök:
-  - 2 cisco Catalyst 3560 series switch S/N: CAT1027ZGQ1
-  - ETS-1000L Ethernet Loopback S/N: MTKL006
-  - Exfo FTB-200 Packet analyzer S/N: 553698 
+  - 2 cisco Catalyst 3560 series switch (S/N: CAT1027ZGQ1)
+  - ETS-1000L Ethernet Loopback (S/N: MTKL006)
+  - Exfo FTB-200 Packet analyzer (S/N: 553698) 
   - Acterna OLP-6 Optical Power Meter
-  - JDSU OLA-55 (programozható csillapító) S/N: MUSZ4222
-  - 2db SFP-GE-LX CC1310nm S/N:SCB7630094
-  - 2db SFP-GE-ZX CC1550nm S/N: SE9C780017
+  - JDSU OLA-55 (programozható csillapító) (S/N: MUSZ4222)
+  - 2db SFP-GE-LX CC1310nm (S/N:SCB7630094)
+  - 2db SFP-GE-ZX CC1550nm (S/N: SE9C780017)
   - 10dB csillapító
-  - SFP-GE-MBU-31D CC TX1310,RX1490 S/N: BU10YE75520005
-  - SFP-GE-MBU-31D CC TX1490,RX1310 S/N: BU10YE75520006
+  - SFP-GE-MBU-31D CC TX1310,RX1490 (S/N: BU10YE75520005)
+  - SFP-GE-MBU-31D CC TX1490,RX1310 (S/N: BU10YE75520006)
   - 2 optikai vezeték
 
 ### Hálózati kapcsolat létrehozása
