@@ -14,7 +14,7 @@
 
 
 ## Használt Eszközök:  
-  - 5db Cisco Catalyst 3560 series Layer 3 Switch (S/N: )
+  - 5db Cisco Catalyst 3560 series Layer 3 Switch
   - Cisco 800 Series SOHO Router (S/N: CISCO0871V03)
 
 ### Konfigurálás, kalibráció:  
