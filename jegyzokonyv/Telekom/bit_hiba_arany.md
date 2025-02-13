@@ -11,14 +11,12 @@
 **Helyszín:** Telekom Duális helyszín
 
 ## Feladat leírása
-
-
+Több SFP tesztelése egy optikai hálózaton állítható csillapítóval és a bit hibaarányok figyelése.
 
 ### Méréshez használt eszközök:
   - 2 cisco Catalyst 3560 series switch S/N: CAT1027ZGQ1
   - ETS-1000L Ethernet Loopback S/N: MTKL006
   - Exfo FTB-200 Packet analyzer S/N: 553698 
-  - 2 optikai vezeték
   - Acterna OLP-6 Optical Power Meter
   - JDSU OLA-55 (programozható csillapító) S/N: MUSZ4222
   - 2db SFP-GE-LX CC1310nm S/N:SCB7630094
@@ -26,52 +24,29 @@
   - 10dB csillapító
   - SFP-GE-MBU-31D CC TX1310,RX1490 S/N: BU10YE75520005
   - SFP-GE-MBU-31D CC TX1490,RX1310 S/N: BU10YE75520006
+  - 2 optikai vezeték
+
+### Hálózati kapcsolat létrehozása
+Első lépésként mind a 2 switchen a GigabitEthernet 0/3 portot access portként kezeltük és az előre létrehozott Vlan 10-be helyeztük a GigabitEthernet 0/1-es porttal együtt. Előbbi azaz a Gi0/3-on csatlakozott a 2 switch egymáshoz ide fogjuk az SFP-ket is behelyezni. A Gi0/1-en csatlakoztattuk az Ethernet Loopbacket illetve az Ethernet Analizátort.  
+  
+![jooooo](https://github.com/user-attachments/assets/44ef42ff-270b-488e-93ec-b28568dba26e)
 
 
 
+### Az SFP-GE-LX CC 1310nm tesztelése
 
+A switch semmi erősítés vagy csillapítás nélkül -6,8dBm adott és a riasztási értékei a következőek vételnél:
+  - High Alarm Threshold: -3dBm
+  - High Warning Threshold: -4dBm
+  - Low Alarm Threshold: -23dBm
+  - Low Warning Threshold: -24dBm
+  
+![limitek](https://github.com/user-attachments/assets/2dd2f39c-8e4c-4115-bd48-6b91c6531662)  
 
+Az áramkört teszteltük szándékosan küldött bit hibával is. Ezt a Exfo FTB-200 Packet analyzerel nagyon szépen lehetett szemlélteni. A képen tökéletesen látszik, hogy korábban hiba nélküli hálózatot mutat de a hiba küldése után már számolta és jelezte is.
 
+![hibakere](https://github.com/user-attachments/assets/f9b3580f-c2f6-468d-a435-95c68d0b0f40)  
 
-
-
-
-
-
-
-
-Sanyi adása -10,7dBm a mért érték műszer szerint
-
-
-
-
-
-                              High Alarm  High Warn  Low Warn   Low Alarm
-          Temperature         Threshold   Threshold  Threshold  Threshold
-Port       (Celsius)          (Celsius)   (Celsius)  (Celsius)  (Celsius)
---------- ------------------  ----------  ---------  ---------  ---------
-Gi0/3       53.7               110.0        95.0       -42.0      -45.0
-
-                              High Alarm  High Warn  Low Warn   Low Alarm
-           Voltage            Threshold   Threshold  Threshold  Threshold
-Port       (Volts)            (Volts)     (Volts)    (Volts)    (Volts)
----------  ---------------    ----------  ---------  ---------  ---------
-Gi0/3      3.14                  3.60        3.50        3.05       3.00
-
-           Optical            High Alarm  High Warn  Low Warn   Low Alarm
-           Transmit Power     Threshold   Threshold  Threshold  Threshold
-Port       (dBm)              (dBm)       (dBm)      (dBm)      (dBm)
----------  -----------------  ----------  ---------  ---------  ---------
-Gi0/3       -6.8                -1.0        -2.0       -10.0      -11.0
-
-           Optical            High Alarm  High Warn  Low Warn   Low Alarm
-           Receive Power      Threshold   Threshold  Threshold  Threshold
-Port       (dBm)              (dBm)       (dBm)      (dBm)      (dBm)
--------    -----------------  ----------  ---------  ---------  ---------
-Gi0/3       -5.2                -3.0        -4.0       -23.0      -24.0
-
-
-Áramkör tesztelése egy szándékosan küldött bit hibával.
 
 
 Következő lépésként bekötöttük az állítható csillapítót. 1310nm re van állítva.  10dB állítva
