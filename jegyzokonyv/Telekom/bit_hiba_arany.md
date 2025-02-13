@@ -1,4 +1,16 @@
-Bithibaarány mérés optikai hálózaton
+# MÉRÉSI JEGYZŐKÖNYV   
+## Optikai hálózat      
+
+**A mérést végző neve:** Snellenperger Sándor   
+**A mérés tárgya:**  Bit hibaarány mérése optikai hálózaton  
+**A mérés száma:** 01. mérés    
+**A mérés dátuma:** 2025. 02. 13.    
+**A mérést vezette:** Hajdú Péter    
+
+**Évfolyam:** 13. E  
+**Helyszín:** Telekom Duális helyszín
+
+
 
 2 cisco Catalyst 3560 series switch
 ETS-1000L Ethernet Loopback
