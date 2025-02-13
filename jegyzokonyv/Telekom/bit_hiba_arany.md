@@ -10,16 +10,29 @@
 **Évfolyam:** 13. E  
 **Helyszín:** Telekom Duális helyszín
 
+## Feladat leírása
 
 
-2 cisco Catalyst 3560 series switch
-ETS-1000L Ethernet Loopback
-Exfo FTB-200 Packet analyzer
-2 optikai vezeték
-Acterna OLP-6 Optical Power Meter
-JDSU OLA-55 (programozható csillapító)
 
-SFP(-GE-LX CC)1310nm S/N:SCB7630094
+### Méréshez használt eszközök:
+  - 2 cisco Catalyst 3560 series switch S/N: CAT1027ZGQ1
+  - ETS-1000L Ethernet Loopback S/N: MTKL006
+  - Exfo FTB-200 Packet analyzer S/N: 553698 
+  - 2 optikai vezeték
+  - Acterna OLP-6 Optical Power Meter
+  - JDSU OLA-55 (programozható csillapító) S/N: MUSZ4222
+  - SFP(-GE-LX CC)1310nm S/N:SCB7630094
+
+
+
+
+
+
+
+
+
+
+
 
 
 Sanyi adása -10,7dBm a mért érték műszer szerint
