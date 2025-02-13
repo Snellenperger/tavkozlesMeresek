@@ -2,7 +2,7 @@
 ## Hálózat építés      
 
 **A mérést végző neve:** Snellenperger Sándor   
-**A mérés tárgya:**    
+**A mérés tárgya:** Komplex hálózat telepítése, konfigurálása  
 **A mérés száma:** 01. mérés    
 **A mérés dátuma:** 2025. 02. 13.    
 **A mérést vezette:** Major András    
@@ -11,15 +11,11 @@
 **Helyszín:** Telekom Duális helyszín
 
 ## Feladat Leírása   
-A mérés célja, hogy modellezzük és megmérjük egy mikró szakasz rádiós paramétereit különböző csillapításoknál. Majd az eredményt összehasonlítani az ideális adatokkal.
+
 
 ## Használt Eszközök:  
-  - NEC iPASOLINK VR4 beltéri (S/N: 4402)
-  - ODU VR4 iPASOLINK TRP-26G-1D kültéri (alsó oldalsáv) (S/N: 19838)
-  - 48V Tápegység HP-P200 DC 48V 4,2A (S/N: 52044274)
-  - Digitális multiméter METEX (S/N: MUSZ4075)
-  - 20 dB fix csillapító
-  - Állítható csillapító You Hewlett Packard 0-70dB, 10dB léptékkel (Működési tartomány DC: 26,5GHz)
+  - 5db Cisco Catalyst 3560 series Layer 3 Switch (S/N: )
+  - Cisco 800 Series SOHO Router (S/N: CISCO0871V03)
 
 ### Konfigurálás, kalibráció:  
 Miután megfelelően összekötöttünk mindent az iPASOLINK webes felületén (alapértelmezett elérése: http://172.17.254.253) a következőket állítottunk be a rádiós összeköttetés érdekében:  
