@@ -150,11 +150,11 @@ line vty 0 4
  transport input ssh
 line vty 5 15
  access-class remote_cli in
-```
+
  transport input ssh
 !
 ntp source Loopback0
 ntp server 10.0.1.2
 end
-
+```
 
