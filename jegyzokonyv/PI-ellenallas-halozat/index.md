@@ -16,22 +16,20 @@ Egy Π csillapító áramkör kalkulátort kerestem, ahova az előre meghatároz
 
 ![image](https://github.com/user-attachments/assets/c2e08f2c-e3f4-4301-910e-3c919be68bc7)
 
-Ezután egy blokk vázlatot készítettem a falstadban, amiben található egy 600 Ω értékű terhelés, kettő feszültségmérő az ellenőrzés miatt, egy olyan DC generátor aminek 600 Ω a belső ellenállása és a Π csillapító ami 3 ellenállásból áll. Az R1 és az R3 megegyezik. Az R2=448.2 Ω az R1=R3=1805 Ω-al. Itt egy ellenőrzést is végeztem, hogy a 6dB csillapítás biztosan elérhető lesz ezekkel az értékekkel.
+Következő lépésként egy blokk vázlatot készítettem a falstadban, amiben található egy 600 Ω értékű terhelés, kettő feszültségmérő (ellenőrzés miatt), egy olyan DC generátor aminek 600 Ω a belső ellenállása és a Π csillapító tag, ami 3 ellenállásból áll. Az R1 és az R3 megegyezik. Az R2=448.2 Ω az R1=R3=1805 Ω-al. Itt egy ellenőrzést is végeztem, hogy a 6dB csillapítás biztosan elérhető lesz ezekkel az értékekkel.
 
 ![image](https://github.com/user-attachments/assets/78c0a220-05a1-4784-89fe-eeb7e051c8b3)
 
-Pontos ellenállás értékeket nem találtunk így ezekkel az értékekkel számoltunk ellenben a blokk vázlatton feltüntett adatokkal szemben: R1=R3=1690 Ω, R2=680 Ω, és a terhelő ellenállás értéke is 680 Ω lett. Így a számítások is ezek szerint alakultak.
+Pontos ellenállás értékeket nem találtam így ezekkel az értékekkel számoltam ellenben a blokk vázlatton feltüntett adatokkal szemben: R1=R3=1690 Ω, R2=680 Ω, és a terhelő ellenállás értéke is 680 Ω lett. Így a számítások is ezek szerint alakultak.
 
 ![image](https://github.com/user-attachments/assets/2931091f-d6bf-48d6-842d-20ac4ce0a896)
 
-Ezt sikeresen összekötöttük egy breadbordon, amire a jelgenerátort sikeresen rákötöttük és egy 1kHz-es, 5V jelet generáltunk, és az osszcilloszkópon sikeresen mértük a 2Vpp-t ami a névleges ellenállások mellett, még elfogadható tartományban van.
+Sikeresen összekötöttem egy breadbordon, amire a jelgenerátort sikeresen rákötöttem és egy 1kHz-es, 5V jelet generáltam, és az osszcilloszkópon sikeresen mértem a 2Vpp-t jelet ami a névleges ellenállások mellett, még elfogadható tartományban volt.
 
 ![image](https://github.com/user-attachments/assets/20160b80-d60f-4b13-b57e-5f9d2a6c57be)
 
 
 ### 3. **Következtetések**
-Az eleje talán a legfontosabb lépés, hogy minden értéket sikeresen kiszámoljunk, hiszen ez fogja adni az egésznek az alapot. Utána olyan pontos ellenállás értéket nyílván nem lehet találni azonban a hozzá legközelebbi értéket választottam. Így a számítások is tolódtak azonban ez várható volt. Az oszcilloszkópon beállítani a megfelelő tartományt 1-2 kisebb baki után sikerült és ezután sikeresnek gondolom a feladatot.
+A pontos értékek meghatározása talán legfontosabb lépés, hiszen ez fogja adni az egésznek az alapot. Nagy segítséget jelenthet, ha az áramkört egy program seítségével először szimulálod, így ellenőrizni, és kiszűrni az esetleges hibákat.
 
-### 4. **Javaslatok**
-1-2 kisebb hiba után nem szabad feladni, az elején elegendő időt kell hagyni hogy elméletben megértsd és azzal a háttértudással folytasd tovább a feladatot.
 
