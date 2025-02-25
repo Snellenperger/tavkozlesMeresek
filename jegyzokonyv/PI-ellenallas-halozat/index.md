@@ -30,6 +30,6 @@ Sikeresen összekötöttem egy breadbordon, amire a jelgenerátort sikeresen rá
 
 
 ### 3. **Következtetések**
-A pontos értékek meghatározása talán legfontosabb lépés, hiszen ez fogja adni az egésznek az alapot. Nagy segítséget jelenthet, ha az áramkört egy program seítségével először szimulálod, így ellenőrizni, és kiszűrni az esetleges hibákat.
+A pontos értékek meghatározása talán legfontosabb lépés, hiszen ez fogja adni az egésznek az alapot. Nagy segítséget jelenthet, ha az áramkört egy program seítségével először szimulálod, így ellenőrizni, ezáltal kiszűrni az esetleges hibákat.
 
 
