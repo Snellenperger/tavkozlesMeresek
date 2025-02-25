@@ -11,7 +11,7 @@
 **Helyszín:** V3 Labor 
 
 ## Feladat Leírása   
-Koax kábel készítése és csillapításának mérése egy jelgenerátor és egy spektrumanalizátor segítségével. 
+Koaxiális kábel készítése és csillapításának mérése egy jelgenerátor és egy spektrumanalizátor segítségével. 
 
 
 ## Használt Eszközök: 
