@@ -1,10 +1,7 @@
-## &#928; Csillapító Áramkör Jegyzőkönyv.
+## &#928; Csillapító Áramkör Mérési Jegyzőkönyv
 
 **Mérés helye**: Miskolci SZC Kandó Kálmán Informatikai Technikum  
 **Mérés időpontja**: 2024.10.07.  
-**A méréshez használt eszközök**:<br>
-HMO1002 Oscilloscope - 1764K02-102609-WG <br>
-Jelgenerátor - A682393<br>
 **Felelős személy**: Sándor Péter  
 **Cél**: A pi csillapító áramkör elemzése.
 
@@ -38,8 +35,4 @@ Az eleje talán a legfontosabb lépés, hogy minden értéket sikeresen kiszámo
 
 ### 4. **Javaslatok**
 1-2 kisebb hiba után nem szabad feladni, az elején elegendő időt kell hagyni hogy elméletben megértsd és azzal a háttértudással folytasd tovább a feladatot.
-
-**Aláírás**:  
-Felelős mérő személy: Snellenperger Sándor  
-Dátum: 2024.10.07.
 
