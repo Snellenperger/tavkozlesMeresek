@@ -1,8 +1,7 @@
 ## &#928; Csillapító Áramkör Mérési Jegyzőkönyv
 
-**Mérés helye**: Miskolci SZC Kandó Kálmán Informatikai Technikum  
-**Mérés időpontja**: 2024.10.07.  
-**Felelős személy**: Sándor Péter  
+**Mérés helye**: Miskolci SZC Kandó Kálmán Informatikai Technikum   
+**A mérést vezette**: Sándor Péter  
 **Cél**: A pi csillapító áramkör elemzése.
 
 ---
