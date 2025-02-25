@@ -1,3 +1,5 @@
+### Router
+
 ```cisco
 Current configuration : 2290 bytes
 !
